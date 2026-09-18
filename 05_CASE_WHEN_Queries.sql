@@ -1,4 +1,4 @@
-use marketplace_db; 
+use marketplace_db ; 
 select product_name ,
 CASE 
 when weight > 5 then 'heavy' 

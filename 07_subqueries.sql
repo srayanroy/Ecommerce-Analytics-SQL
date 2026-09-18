@@ -1,4 +1,4 @@
-use marketplace_db;
+use marketplace_db ;
 select *
 from orders 
 where total_amount > (select max(total_amount)

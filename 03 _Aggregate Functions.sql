@@ -1,4 +1,4 @@
-use marketplace_db;
+use marketplace_db ;
 select count(*) from customers;
 select count(phone_number)
  from customers;
